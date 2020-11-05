@@ -53,13 +53,13 @@ return inquirer.prompt([
   },
   {
     type: "input",
-    name: "contributions",
+    name: "contributing",
     message: "Were there any notable outside contributions for this project?",
     default: "God"
   },
   {
     type: "input",
-    name: "test",
+    name: "tests",
     message: "How is this project tested?",
     default: "Carefully"
   },
@@ -68,10 +68,10 @@ return inquirer.prompt([
     message: "Choose a license for the project.",
     name: "license",
     choices: [
-      "HTML", 
-      "CSS", 
-      "JavaScript", 
-      "MySQL"
+      "Apache License 2.0", 
+      "GNU General Public License v3.0", 
+      "MIT License", 
+      "Mozilla Public License 2.0"
     ]
   },
   {
@@ -88,37 +88,13 @@ return inquirer.prompt([
   }
 ])};
 
-//   {
-//     type: "list",
-//     message: "What is your preferred method of communication?",
-//     name: "contact",
-//     choices: [
-//       "email",
-//       "phone",
-//       "telekinesis"
-// //     ]
-// ]).then(function(data) {
-
-//   var filename = data.title.toUpperCase().split(' ').join('') + ".json";
-
-//   fs.writeFile(filename, JSON.stringify(data, null, '\t'), function(err) {
-
-//     if (err) {
-//       return console.log(err);
-//     }
-
-//     console.log("Success!");
-
-//   });
-// });
-
 
 async function init() {
-    console.log("hi")
     try {
       const answers = await promptUser();
   
-      var filename = answers.title.toUpperCase().split(' ').join('') + ".md";
+      // var filename = answers.title.toUpperCase().split(' ').join('') + ".md";
+      var filename = "README_Sample.md";
       const readme = mdGen(answers);
   
       await writeFileAsync(filename, readme);

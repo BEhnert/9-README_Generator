@@ -1,29 +1,32 @@
 // function to generate markdown for README
 function generateMarkdown(answers) {
   return `
-  ##### Table of Contents
-
-   [Title](#title)
-   [Description](#description)
-   [Installation](#installation)
-   [Usage](#usage)
-   [Contributing](#contributing)
-   [Tests](#tests)
-   [Questions](#questions)
-   [License](#license)
+  
 
   # Title
-  # ${answers.title}
-
+  ${answers.title}
+  
   ### Description
   ${answers.description}
 
-  ### Instructions
+  ##### Table of Contents
+
+   [Installation](#installation)
+   [Usage](#usage)
+   [License](#license)
+   [Contributing](#contributing)
+   [Tests](#tests)
+   [Questions](#questions)
+  
+  ### Installation
   ${answers.instructions}
 
   ### Usage
   ${answers.usage}
 
+  ### License
+  ${answers.license}
+ 
   ### Contributing
   ${answers.contributing}
 
@@ -32,15 +35,12 @@ function generateMarkdown(answers) {
 
   ### Questions
        GitHub - <add link here ${answers.github}
-
+       [a link](https://github.com/${answers.github})
+      
        For additional questions, please email me at: ${answers.email}
+      [a link](mailto:${answers.email})
 
-  #### License
-
-    ${answers.license}
-    
-  Good Test of ReadMe file
-  Will this write again?
+ 
 `;
 }
 
