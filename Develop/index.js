@@ -1,23 +1,3 @@
-// // array of questions for user
-// const questions = [
-
-// ];
-
-//like generateHtml from 40
-// // function to write README file
-// function writeToFile(fileName, data) {
-// }
-
-
-// // function to initialize program
-// function init() {
-
-// }
-
-//like promptUser from 40
-// // function call to initialize program
-// init();
-
 const inquirer = require("inquirer");
 const fs = require('fs');
 const util = require("util");
@@ -70,7 +50,10 @@ return inquirer.prompt([
     choices: [
       "Apache License 2.0", 
       "GNU General Public License v3.0", 
-      "MIT License", 
+      {
+      name: "MIT License", 
+      value: "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
+    },
       "Mozilla Public License 2.0"
     ]
   },

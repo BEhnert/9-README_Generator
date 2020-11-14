@@ -2,9 +2,10 @@
   
 
   # Title
-  # ReadMe Test
+  ReadMe Test
+  
   ### Description
-  This application will allow users to answer some questions in order to generate a ReadMe file.
+  Good vibrations
 
   ##### Table of Contents
 
@@ -19,16 +20,18 @@
   Push Play
 
   ### Usage
-  Get a ReadMe up and running easily.
+  Fun
 
   ### License
-  MIT License
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+ 
+ [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
  
   ### Contributing
   God
 
   ### Tests
-  Thoroughly
+  Carefully
 
   ### Questions
        GitHub - <add link here BEhnert
