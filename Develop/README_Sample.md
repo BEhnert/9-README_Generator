@@ -2,10 +2,10 @@
   
 
   # Title
-  ReadMe Test
+  ReadMe
   
   ### Description
-  Good vibrations
+  Generate a good ReadMe
 
   ##### Table of Contents
 
@@ -17,21 +17,19 @@
    [Questions](#questions)
   
   ### Installation
-  Push Play
+  node index.js
 
   ### Usage
-  Fun
+  Easily generate a ReadMe
 
   ### License
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
- 
- [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  [![License](https://img.shields.io/badge/License-EPL%201.0-red.svg)](https://opensource.org/licenses/EPL-1.0)
  
   ### Contributing
-  God
+  Tutor
 
   ### Tests
-  Carefully
+  Multiple times running and adjusting it
 
   ### Questions
        GitHub - <add link here BEhnert
